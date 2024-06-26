@@ -8,6 +8,7 @@ p22.style.display = "none";
 var good = -1;
 if (document.cookie=="good = 1"){
 good = 1;
+console.log("jefffffffffffffffffff");
 }
 function getData(form) {
     var formData = new FormData(form);
