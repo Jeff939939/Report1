@@ -6,7 +6,7 @@ p22 = document.getElementById("p22");
 title = document.getElementById("title"); 
 p22.style.display = "none";
 var good = -1;
-if (document.cookie==="good = 1"){
+if (document.cookie=="good = 1"){
 good = 1;
 }
 function getData(form) {
