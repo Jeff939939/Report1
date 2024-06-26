@@ -31,5 +31,6 @@ else if (document.cookie===""){
         console.log("nocookie");
 }
 else{
+    console.log(document.cookie);
     lock1()
 }
