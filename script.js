@@ -7,13 +7,7 @@ title = document.getElementById("title");
 p22.style.display = "none";
 var good = -1;
 if (document.cookie==="good = 1"){
-  var good=1
-  form11.style.display = "none";
-  h11.innerHTML = "Peter Dutton annonces that if elected they would instate a ban on social media for under 16's";
-  p11.style.display = "none";
-  p22.style.display = "block";
-  title.innerHTML = "Peter Dutton annonces that if elected they would instate a ban on social media for under 16's";
-  document.cookie = "good = 1";
+good = 1;
 }
 function getData(form) {
     var formData = new FormData(form);
@@ -29,6 +23,10 @@ function getData(form) {
       var sixteen = current-16;
       console.log(sixteen);
       if (sixteen>=userdate){
+        console.log("jeff");
+        var good=1
+      }
+      if (good==1){
         console.log("jeff");
         var good=1
         form11.style.display = "none";
@@ -66,10 +64,4 @@ else if (document.cookie==="good = 0"|good==0){
 }
 else if (document.cookie==="good = 1"){
   var good=1
-  form11.style.display = "none";
-  h11.innerHTML = "Peter Dutton annonces that if elected they would instate a ban on social media for under 16's";
-  p11.style.display = "none";
-  p22.style.display = "block";
-  title.innerHTML = "Peter Dutton annonces that if elected they would instate a ban on social media for under 16's";
-  document.cookie = "good = 1";
 }
