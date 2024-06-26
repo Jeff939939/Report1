@@ -28,7 +28,7 @@ if (document.cookie == "over = 1"){
     unlock()
 }
 else if (document.cookie==""){
-    break
+
 }
 else{
     lock1()
