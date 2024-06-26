@@ -12,7 +12,16 @@ console.log("jefffffffffffffffffff");
 }
 function getData(form) {
     var formData = new FormData(form);
-  
+    if (document.cookie=="good = 1"){
+      good = 1;
+      console.log("jefffffffffffffffffff");
+    }
+    else if (document.cookie=="good = 0"){
+      h11.innerHTML = "You are not 16";
+      p11.style.display = "none";
+      form11.style.display = "none";
+    }
+    else{
     for (var pair of formData.entries()) {
       console.log(pair[0] + ": " + pair[1]);
       var age = pair[1];
@@ -27,17 +36,7 @@ function getData(form) {
         console.log("jeff");
         var good=1
       }
-      if (good==1){
-        console.log("jeff");
-        var good=1
-        form11.style.display = "none";
-        h11.innerHTML = "Peter Dutton annonces that if elected they would instate a ban on social media for under 16's";
-        p11.style.display = "none";
-        p22.style.display = "block";
-        title.innerHTML = "Peter Dutton annonces that if elected they would instate a ban on social media for under 16's";
-        document.cookie = "good = 1";
-        console.log(document.cookie);
-      }
+
 
       else{ 
         console.log("nojeff");
@@ -48,6 +47,18 @@ function getData(form) {
         p11.style.display = "none";
         form11.style.display = "none";
     }
+    if (good==1){
+      console.log("jeff");
+      var good=1
+      form11.style.display = "none";
+      h11.innerHTML = "Peter Dutton annonces that if elected they would instate a ban on social media for under 16's";
+      p11.style.display = "none";
+      p22.style.display = "block";
+      title.innerHTML = "Peter Dutton annonces that if elected they would instate a ban on social media for under 16's";
+      document.cookie = "good = 1";
+      console.log(document.cookie);
+    }
+  }
     }
   
     console.log(Object.fromEntries(formData));
