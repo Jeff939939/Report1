@@ -28,7 +28,7 @@ if (document.cookie == "over = 1"){
     unlock()
 }
 else if (document.cookie==""){
-
+        console.log("nocookie");
 }
 else{
     lock1()
