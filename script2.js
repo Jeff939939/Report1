@@ -24,10 +24,10 @@ function unlock(){
       document.cookie = "over = 0"
     }
 
-if (document.cookie == "over = 1"){
+if (document.cookie === "over = 1"){
     unlock()
 }
-else if (document.cookie==""){
+else if (document.cookie===""){
         console.log("nocookie");
 }
 else{
