@@ -3,7 +3,14 @@ h11 = document.getElementById("h11");
 p11 = document.getElementById("p11");
 p22 = document.getElementById("p22"); 
 title = document.getElementById("title"); 
-
+function p222(){
+    console.log("removedp222")
+    p22.innerHTML = "Your 1 minute read time is over.
+}
+function p221(){
+    console.log("removedp221")
+    p22.style.display = "block";
+}
 function unlock(){
     console.log("jeff");
     var good=1
@@ -29,13 +36,6 @@ function unlock(){
             p222()
         }
     }
-    function p222(){
-        console.log("removedp222")
-        p22.style.display = "none";
-    }
-    function p221(){
-        console.log("removedp221")
-        p22.style.display = "block";
-    }
+
 
     setTimeout(lock2,60000)
