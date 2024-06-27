@@ -3,7 +3,7 @@ h11 = document.getElementById("h11");
 p11 = document.getElementById("p11");
 p22 = document.getElementById("p22"); 
 title = document.getElementById("title"); 
-p22.style.display = "none";
+
 function unlock(){
     console.log("jeff");
     var good=1
