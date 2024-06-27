@@ -16,6 +16,7 @@ function unlock(){
     }
     function lock1(){
       console.log("nojeff");
+      p22.style.display = "none";
       good=0;
       console.log(document.cookie);
       h11.innerHTML = "You are not 16";
