@@ -5,7 +5,7 @@ p22 = document.getElementById("p22");
 title = document.getElementById("title"); 
 function p222(){
     console.log("removedp222")
-    p22.innerHTML = "Your 1 minute read time is over.
+    p22.innerHTML = "Your 1 minute read time is over.";
 }
 function p221(){
     console.log("removedp221")
@@ -24,6 +24,7 @@ function unlock(){
     }
     function lock2(){
       if (document.cookie==="over=1"){
+            unlock()
         
             console.log("nojeff");
       
