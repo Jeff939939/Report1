@@ -27,7 +27,16 @@ function unlock(){
             p11.style.display = "none";
             form11.style.display = "none";
             document.cookie = "over = 0"
+            p222()
         }
+    }
+    function p222(){
+        console.log("removedp222")
+        p22.style.display = "none";
+    }
+    function p221(){
+        console.log("removedp221")
+        p22.style.display = "block";
     }
 
     setTimeout(lock2,60000)
