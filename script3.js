@@ -24,7 +24,6 @@ function unlock(){
     }
     function lock2(){
       if (document.cookie==="over=1"){
-            unlock()
         
             console.log("nojeff");
       
