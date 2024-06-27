@@ -26,7 +26,6 @@ function unlock(){
             h11.innerHTML = "Your 1 minute time is up";
             p11.style.display = "none";
             form11.style.display = "none";
-            document.cookie = "over = 0"
             p222()
         }
     }
