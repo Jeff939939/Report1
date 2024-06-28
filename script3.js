@@ -1,4 +1,4 @@
-form11 = document.getElementById("myForm");
+form11 = document.getElementById("form1");
 h11 = document.getElementById("h11");
 p11 = document.getElementById("p11");
 p22 = document.getElementById("p22"); 
@@ -24,7 +24,6 @@ function unlock(){
     }
     function lock2(){
       if (document.cookie==="over=1"){
-
         
             console.log("nojeff");
       
