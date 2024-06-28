@@ -1,6 +1,78 @@
 body {
     font-family: Arial, sans-serif;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
     }
-form {
+#form1 {
     font-family: Arial, sans-serif;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 30%;
+    height: 500px;
+    margin: auto;
+    position: sticky;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+input {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;  
+    border: 5px;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 0%;
+    padding-right: 0%;
+    align-items: center;
+}
+#Submit{
+    position: relative;
+    height: 60px;
+    width: 170px;
+    padding-left: 0%;
+    margin: auto;
+    align-self: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#age {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    padding-left: 0%;
+    margin: auto;
+    align-self: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#jeff{
+    position: absolute;
+    align-self: flex-start;
+    padding-top: 7px;
+    padding-left: 0%;
+    font-size: 24px;
+    white-space: nowrap;
+}
+#jeff1{
+    position: absolute;
+    align-self: flex-start;
+    padding-top: 39px;
+    padding-left: 0%;
+    font-size: 14px;
+    white-space: nowrap;
 }
